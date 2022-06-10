@@ -11,7 +11,17 @@
   "postUpdateOptions": [
     "yarnDedupeHighest"
   ],
-  "commitMessageExtra": "from {{currentVersion}} to {{newVersion}} {{#if isPatch}}(patch){{/if}}{{#if isMinor}}(minor){{/if}}",
+  "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
+  "patch": {
+    "semanticCommitScope": "deps-patch"
+  },
+  "minor": {
+    "semanticCommitScope": "deps-minor"
+  },
+  "major": {
+    "semanticCommitType": "feat",
+    "semanticCommitScope": "deps-major"
+  },
   "packageRules": [
     {
       "matchUpdateTypes": ["patch", "pin", "digest"],
