@@ -1,7 +1,8 @@
 {
   "extends": [
     "config:base",
-    "schedule:daily"
+    ":pinVersions",
+    ":semanticCommits"
   ],
   "prConcurrentLimit": 2,
   "assignees": ["gvdp"],
@@ -9,6 +10,7 @@
   "postUpdateOptions": [
     "yarnDedupeHighest"
   ],
+  "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
   "packageRules": [
     {
       "matchUpdateTypes": ["patch", "pin", "digest"],
