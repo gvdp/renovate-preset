@@ -2,7 +2,8 @@
   "extends": [
     "config:base",
     ":pinVersions",
-    ":semanticCommits"
+    ":semanticCommits",
+    ":semanticPrefixFixDepsChoreOthers"
   ],
   "prConcurrentLimit": 2,
   "assignees": ["gvdp"],
