@@ -11,7 +11,7 @@
   "postUpdateOptions": [
     "yarnDedupeHighest"
   ],
-  "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
+  "commitMessageExtra": "from {{currentVersion}} to {{newVersion}} {{#if isPatch}}(patch){{/if}}{{#if isMinor}}(minor){{/if}}",
   "packageRules": [
     {
       "matchUpdateTypes": ["patch", "pin", "digest"],
