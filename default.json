@@ -6,6 +6,9 @@
   "prConcurrentLimit": 2,
   "assignees": ["gvdp"],
   "rebaseWhen": "behind-base-branch",
+  "postUpdateOptions": [
+    "yarnDedupeHighest"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": ["patch", "pin", "digest"],
