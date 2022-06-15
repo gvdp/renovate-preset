@@ -10,6 +10,7 @@
   "rebaseWhen": "behind-base-branch",
   "prCreation": "not-pending",
   "separateMultipleMajor": true,
+  "prHourlyLimit": 1,
   "postUpdateOptions": [
     "yarnDedupeHighest"
   ],
