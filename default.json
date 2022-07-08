@@ -31,13 +31,21 @@
       "automerge": true
     },
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchUpdateTypes": ["minor"],
       "matchDepTypes": ["devDependencies"],
       "automerge": true
     },
     {
       "matchDatasources": ["npm"],
       "stabilityDays": 3
+    },
+      {
+      "matchDepTypes": ["devDependencies"],
+      "prPriority": -1
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "prPriority": 1
     }
   ]
 }
