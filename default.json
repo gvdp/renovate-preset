@@ -46,6 +46,10 @@
     {
       "matchUpdateTypes": ["major"],
       "prPriority": 1
+    },
+      {
+      "matchSourceUrlPrefixes": ["https://github.com/vitejs/vite"],
+      "groupName": "vite monorepo"
     }
   ]
 }
