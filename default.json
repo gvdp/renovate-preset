@@ -48,7 +48,8 @@
       "prPriority": 1
     },
       {
-      "matchSourceUrlPrefixes": ["https://github.com/vitejs/vite"],
+      "matchPackageNames": ["vite", "vitest"],
+      "matchPackagePrefixes": ["@vitejs"],
       "groupName": "vite monorepo"
     }
   ]
