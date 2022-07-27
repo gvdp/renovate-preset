@@ -49,7 +49,7 @@
     },
       {
       "matchPackageNames": ["vite", "vitest"],
-      "matchPackagePrefixes": ["vitejs"],
+      "matchPackagePatterns": ["^@vitejs"],
       "matchUpdateTypes": [
         "digest",
         "patch",
