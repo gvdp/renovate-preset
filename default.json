@@ -50,6 +50,12 @@
       {
       "matchPackageNames": ["vite", "vitest"],
       "matchPackagePrefixes": ["@vitejs"],
+      "matchUpdateTypes": [
+        "digest",
+        "patch",
+        "minor",
+        "major"
+      ],
       "groupName": "vite monorepo"
     }
   ]
