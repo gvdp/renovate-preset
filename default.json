@@ -48,8 +48,10 @@
       "prPriority": 1
     },
       {
-      "matchPackageNames": ["vite", "vitest"],
-      "matchPackagePatterns": ["^@vitejs"],
+      "matchSourceUrlPrefixes": [
+        "https://github.com/vitejs/vite", 
+        "https://github.com/vitest-dev/vitest"
+      ],
       "matchUpdateTypes": [
         "digest",
         "patch",
