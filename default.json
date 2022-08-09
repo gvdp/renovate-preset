@@ -58,7 +58,8 @@
         "minor",
         "major"
       ],
-      "groupName": "vite monorepo"
+      "groupName": "vite monorepo",
+      "separateMultipleMajor": false,
     }
   ]
 }
