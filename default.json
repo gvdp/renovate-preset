@@ -35,6 +35,10 @@
       "matchDepTypes": ["devDependencies"],
       "automerge": true
     },
+    {        
+      "matchCurrentVersion": "<1.0.0",
+      "automerge": false
+    },
     {
       "matchDatasources": ["npm"],
       "stabilityDays": 3
