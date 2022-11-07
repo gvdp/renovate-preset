@@ -64,6 +64,10 @@
       ],
       "groupName": "vite monorepo",
       "separateMultipleMajor": false,
+    },
+    {
+      "matchPackagePatterns": ["pnpm"],
+      "enabled": false
     }
   ]
 }
