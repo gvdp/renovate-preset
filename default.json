@@ -66,6 +66,12 @@
       "groupName": "vite monorepo",
       "separateMultipleMajor": false,
     },
+     {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/gatsbyjs/gatsby"
+      ],
+      "dependencyDashboardApproval": true
+    },
     {
       "matchPackagePatterns": ["pnpm"],
       "enabled": false
