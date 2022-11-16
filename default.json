@@ -67,7 +67,7 @@
       "separateMultipleMajor": false,
     },
     {
-      "extends": ["monorepo:gatsby"]
+      "extends": ["monorepo:gatsby"],
       "dependencyDashboardApproval": true
     },
     {
