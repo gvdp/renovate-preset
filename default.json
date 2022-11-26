@@ -73,6 +73,10 @@
     {
       "matchPackagePatterns": ["pnpm"],
       "enabled": false
+    },
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/axios/axios"],
+      "automerge": false
     }
   ]
 }
