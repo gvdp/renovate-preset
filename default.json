@@ -76,7 +76,7 @@
     },
     {
       "matchSourceUrlPrefixes": ["https://github.com/axios/axios"],
-      "automerge": false
+      "enabled": false
     }
   ]
 }
