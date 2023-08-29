@@ -3,7 +3,8 @@
     "config:base",
     ":pinVersions",
     ":semanticCommits",
-    ":semanticCommitTypeAll(chore)"
+    ":semanticCommitTypeAll(chore)",
+    "schedule:daily"
   ],
   "prConcurrentLimit": 2,
   "assignees": ["gvdp"],
