@@ -65,7 +65,7 @@
         "major"
       ],
       "groupName": "vite monorepo",
-      "separateMultipleMajor": false,
+      "separateMultipleMajor": false
     },
     {
       "extends": ["monorepo:gatsby"],
