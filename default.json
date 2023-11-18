@@ -4,9 +4,9 @@
     ":pinVersions",
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)",
-    "schedule:daily"
+    "schedule:weekly"
   ],
-  "prConcurrentLimit": 2,
+  "prConcurrentLimit": 5,
   "assignees": ["gvdp"],
   "rebaseWhen": "behind-base-branch",
   "recreateClosed": false,
