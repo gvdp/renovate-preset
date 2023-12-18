@@ -9,7 +9,6 @@
   "prConcurrentLimit": 5,
   "assignees": ["gvdp"],
   "rebaseWhen": "behind-base-branch",
-  "recreateClosed": false,
   "separateMultipleMajor": true,
   "prHourlyLimit": 10,
   "prCreation": "not-pending",
