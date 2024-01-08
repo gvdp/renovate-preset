@@ -3,14 +3,17 @@
     "config:base",
     ":pinVersions",
     ":semanticCommits",
-    ":semanticCommitTypeAll(chore)",
-    "schedule:weekly"
+    ":semanticCommitTypeAll(chore)"
+  ],
+  "schedule": [
+    "before 12am on Monday",
+    "before 12am on Tuesday",
   ],
   "prConcurrentLimit": 5,
+  "branchConcurrentLimit": 5,
   "assignees": ["gvdp"],
   "rebaseWhen": "behind-base-branch",
   "separateMultipleMajor": true,
-  "prHourlyLimit": 10,
   "prCreation": "not-pending",
   "postUpdateOptions": [
     "yarnDedupeHighest"
