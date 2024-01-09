@@ -8,7 +8,7 @@
   "schedule": [
     "before 11am on Monday",
     "before 11am on Tuesday",
-    "after 9pm on Tuesday"
+    "after 8pm on Tuesday"
   ],
   "prConcurrentLimit": 5,
   "branchConcurrentLimit": 5,
