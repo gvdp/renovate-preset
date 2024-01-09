@@ -7,7 +7,7 @@
   ],
   "schedule": [
     "before 12am on Monday",
-    "before 12am on Tuesday",
+    "before 12am on Tuesday"
   ],
   "prConcurrentLimit": 5,
   "branchConcurrentLimit": 5,
