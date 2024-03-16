@@ -6,9 +6,7 @@
     ":semanticCommitTypeAll(chore)"
   ],
   "schedule": [
-    "before 11am on Monday",
-    "before 11am on Tuesday",
-    "after 8pm on Tuesday"
+     "every weekend"
   ],
   "prConcurrentLimit": 5,
   "branchConcurrentLimit": 5,
