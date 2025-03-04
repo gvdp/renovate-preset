@@ -49,10 +49,7 @@
       "matchDepTypes": ["devDependencies"],
       "prPriority": -1
     },
-    {
-      "matchUpdateTypes": ["major"],
-      "prPriority": 1
-    },
+   
       {
       "matchSourceUrlPrefixes": [
         "https://github.com/vitejs/vite", 
