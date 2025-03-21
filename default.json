@@ -75,6 +75,14 @@
     {
       "matchSourceUrlPrefixes": ["https://github.com/axios/axios"],
       "enabled": false
+    },
+    {   
+      "matchPackageNames": [
+        "node",
+        "node.js",
+        "@types/node"
+      ],
+      "groupName": "Node"
     }
   ]
 }
