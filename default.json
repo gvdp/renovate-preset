@@ -77,7 +77,7 @@
       "enabled": false
     },
     {   
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchUpdateTypes": ["major"],
       "matchPackageNames": [
         "node",
         "node.js",
