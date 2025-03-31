@@ -85,5 +85,10 @@
       ],
       "groupName": "Node"
     }
+    ,
+    {   
+      "matchUpdateTypes": ["patch"],
+      "groupName": "Patches"
+    }
   ]
 }
