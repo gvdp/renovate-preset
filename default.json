@@ -8,7 +8,7 @@
   "schedule": [
      "every monday"
   ],
-  "prConcurrentLimit": 2,
+  "prConcurrentLimit": 3,
   "assignees": ["gvdp"],
   "rebaseWhen": "conflicted",
   "separateMultipleMajor": true,
