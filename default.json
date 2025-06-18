@@ -6,7 +6,7 @@
     ":semanticCommitTypeAll(chore)"
   ],
   "schedule": [
-     "every monday"
+     "every wednesday"
   ],
   "prConcurrentLimit": 3,
   "assignees": ["gvdp"],
