@@ -89,7 +89,7 @@
     {   
       "matchUpdateTypes": ["patch"],
       "groupName": "Patches",
-      "automerge": false
+      "automerge": true
     }
   ]
 }
