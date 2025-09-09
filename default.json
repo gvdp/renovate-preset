@@ -6,11 +6,11 @@
     ":semanticCommitTypeAll(chore)"
   ],
   "schedule": [
-     "every wednesday"
+     "every wednesday",
+     "every tuesday"
   ],
   "prConcurrentLimit": 3,
   "assignees": ["gvdp"],
-  "rebaseWhen": "conflicted",
   "separateMultipleMajor": true,
   "prCreation": "not-pending",
   "postUpdateOptions": [
