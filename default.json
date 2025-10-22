@@ -29,6 +29,10 @@
   },
   "packageRules": [
     {
+      "matchDepTypes": ["devDependencies"],
+      "semanticCommitScope": "deps-dev"
+    },
+    {
       "matchUpdateTypes": ["patch", "pin", "digest"],
       "automerge": true
     },
