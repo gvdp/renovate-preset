@@ -76,10 +76,7 @@
       "matchPackagePatterns": ["pnpm"],
       "enabled": false
     },
-    {
-      "matchSourceUrlPrefixes": ["https://github.com/axios/axios"],
-      "enabled": false
-    },
+ 
     {   
       "matchUpdateTypes": ["major"],
       "matchPackageNames": [
