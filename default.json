@@ -49,12 +49,11 @@
       "matchDatasources": ["npm"],
       "stabilityDays": 3
     },
-      {
+    {
       "matchDepTypes": ["devDependencies"],
       "prPriority": -1
     },
-   
-      {
+    {
       "matchSourceUrlPrefixes": [
         "https://github.com/vitejs/vite", 
         "https://github.com/vitest-dev/vitest"
@@ -69,14 +68,9 @@
       "separateMultipleMajor": false
     },
     {
-      "extends": ["monorepo:gatsby"],
-      "dependencyDashboardApproval": true
-    },
-    {
       "matchPackagePatterns": ["pnpm"],
       "enabled": false
-    },
- 
+    }, 
     {   
       "matchUpdateTypes": ["major"],
       "matchPackageNames": [
@@ -85,8 +79,7 @@
         "@types/node"
       ],
       "groupName": "Node"
-    }
-    ,
+    },
     {   
       "matchUpdateTypes": ["patch"],
       "groupName": "Patches",
