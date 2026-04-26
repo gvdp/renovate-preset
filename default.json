@@ -13,6 +13,7 @@
   "assignees": ["gvdp"],
   "separateMultipleMajor": true,
   "prCreation": "not-pending",
+  "dependencyDashboardApproval": false,
   "postUpdateOptions": [
     "yarnDedupeHighest"
   ],
