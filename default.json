@@ -29,6 +29,10 @@
     "semanticCommitScope": "deps-major"
   },
   "packageRules": [
+       {
+      "matchPackageNames": ["*"],
+      "dependencyDashboardApproval": false
+    },
     {
       "matchDepTypes": ["devDependencies"],
       "semanticCommitScope": "deps-dev"
