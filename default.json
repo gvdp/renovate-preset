@@ -9,7 +9,7 @@
      "every wednesday",
      "every tuesday"
   ],
-  "prConcurrentLimit": 3,
+  "prConcurrentLimit": 2,
   "assignees": ["gvdp"],
   "separateMultipleMajor": true,
   "prCreation": "not-pending",
