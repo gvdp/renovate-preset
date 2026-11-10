@@ -90,6 +90,14 @@
       "matchUpdateTypes": ["patch"],
       "groupName": "Patches",
       "automerge": true
+    },
+    {
+      "groupName": "stylelint",
+      "matchPackageNames": [
+        "stylelint",
+        "stylelint-*"
+      ],
+      "separateMultipleMajor": false
     }
   ]
 }
